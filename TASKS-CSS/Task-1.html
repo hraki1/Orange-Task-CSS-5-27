@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        div{
+            width: 400px;
+            margin: auto;
+        }
+        table thead tr{text-align: right;}
+        table thead tr th{
+            background-color: yellow;
+        }
+        table tbody tr:first-child th:first-child{
+            background-color: pink;
+        }
+        hr {
+            width: 400px;
+        }
+        h1{
+            font-weight:400;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+      <div>
+        <h1>Ninja Details</h1>
+        <hr />
+        <table border="1" width="400">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Ninja A</th>
+              <td>18</td>
+              <th>B</th>
+            </tr>
+            <tr>
+              <td>Ninja B</td>
+              <td>23</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>Ninja C</td>
+              <td>22</td>
+              <td>A</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Ninja C - the best learner!</th>
+                </tr>
+            </tfoot>
+          </tbody>
+        </table>
+    </div>
+   
+  </body>
+</html>

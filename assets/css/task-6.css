@@ -1,0 +1,109 @@
+/* Roots */
+:root {
+  --mainColor: #0a66c2;
+}
+body {
+  background-color: #42bda3;
+}
+/* start main */
+main {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: #8887c5;
+}
+main h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+}
+main form .input {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main form .input > input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+main form .input > input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+main form .group-inputs > input {
+  padding: 10px;
+  width: calc(50% - 5px);
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+
+main form .input label {
+  font-size: 13px;
+  color: #42bda3;
+}
+main form .buttons {
+  text-align: center;
+}
+main form .buttons button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--mainColor);
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  font-weight: bold;
+  background-color: #555555;
+}
+
+form .accept-box {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form .accept-box label{
+  font-size: 14px;
+  margin-left: 10px;
+  color: #fff;
+}
+form .text-box {
+  color: #fff;
+  margin: 20px 0;
+  text-align: center;
+}
+form .text-box p {
+  font-weight: bold;
+  font-size: 14px;
+}
+form .text-box p a {
+  text-decoration: underline;
+  color: #fff;
+}
+form .footer-box {
+  color: #fff;
+  margin: 10px 0;
+  text-align: center;
+}
+form .footer-box p {
+  font-size: 14px;
+}
+/* end main */
